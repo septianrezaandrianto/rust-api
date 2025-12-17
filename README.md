@@ -19,7 +19,7 @@ Simple REST API dengan **Rust + Axum + SQLx + PostgreSQL** (CRUD Product) + **SQ
 
 - PostgreSQL sudah running (local / docker)
 - Rust toolchain ter-install
-  <p>
+<p>
   <img src="https://github.com/user-attachments/assets/fe6a5476-95e1-4a50-842f-7e0b6b1d3618"
        alt="Rust toolchain"
        width="520" />
@@ -49,3 +49,22 @@ cargo build
 ```
 cargo run
 ```
+
+## API Requests (requests.http)
+Repo ini menyediakan file **`requests.http`** untuk mencoba endpoint tanpa Postman.
+Kalau kamu pakai VS Code:
+
+1. Install extension **REST Client** (by Huachao Mao)
+2. Buka file `requests.http`
+3. Klik **Send Request** di atas tiap request
+   
+### Daftar endpoint di `requests.http`
+
+- ** GET http://localhost:8000/  
+  Health check untuk memastikan server hidup.
+<p>
+  <img width="664" height="270" alt="image" src="https://github.com/user-attachments/assets/4cd82d09-6753-43a1-b50e-2decebf5b99f" />
+</p>
+  
+
+  
