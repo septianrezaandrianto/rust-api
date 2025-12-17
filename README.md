@@ -33,3 +33,14 @@ Simple REST API dengan **Rust + Axum + SQLx + PostgreSQL** (CRUD Product) + **SQ
 ```bash
 git clone https://github.com/septianrezaandrianto/rust-api.git
 cd rust-api
+```
+
+### 2) sesuaikan config db file .env pada dengan config db mu
+DATABASE_URL=postgres://{username}:{password}@{host}:5432/{nama_db}
+
+### 3) Build
+cargo build
+
+### 4) Run Project
+cargo run
+
