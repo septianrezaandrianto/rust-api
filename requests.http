@@ -1,0 +1,36 @@
+### hello world
+GET http://localhost:8000/
+
+### fetch product list
+GET http://localhost:8000/products
+
+### create product
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "name": "Ciki chuba",
+  "category": "Makanan ringan",
+  "qty": 10,
+  "price" : 1000
+}
+
+###get product by id
+GET http://localhost:8000/products/9
+
+### update product
+PUT http://localhost:8000/products/9
+Content-Type: application/json
+
+{
+  "name": "Ciki chuba",
+  "category": "Makanan ringan",
+  "qty": 3,
+  "price" : 750
+}
+
+### delete user
+DELETE http://localhost:8000/products/10
+
+### soft delete user
+PUT http://localhost:8000/products/soft-delete/11
