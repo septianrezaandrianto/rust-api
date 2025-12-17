@@ -1,4 +1,4 @@
-<img width="477" height="149" alt="image" src="https://github.com/user-attachments/assets/6e5e7d62-a132-4c00-92d7-0b37da7fec62" /># rust-api
+# rust-api
 
 Simple REST API dengan **Rust + Axum + SQLx + PostgreSQL** (CRUD Product) + **SQLx migrations**.
 
@@ -19,7 +19,11 @@ Simple REST API dengan **Rust + Axum + SQLx + PostgreSQL** (CRUD Product) + **SQ
 
 - PostgreSQL sudah running (local / docker)
 - Rust toolchain ter-install
-  <img width="477" height="149" alt="image" src="https://github.com/user-attachments/assets/fe6a5476-95e1-4a50-842f-7e0b6b1d3618" />
+  <p>
+  <img src="https://github.com/user-attachments/assets/fe6a5476-95e1-4a50-842f-7e0b6b1d3618"
+       alt="Rust toolchain"
+       width="520" />
+</p>
 
 ---
 
