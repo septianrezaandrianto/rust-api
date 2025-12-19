@@ -9,28 +9,28 @@ POST http://localhost:8000/products
 Content-Type: application/json
 
 {
-  "name": "Ciki chuba",
-  "category": "Makanan ringan",
-  "qty": 10,
-  "price" : 1000
+  "name": "Teh Pucuk",
+  "category": "Minuman",
+  "qty": 5,
+  "price" : 7500
 }
 
 ###get product by id
-GET http://localhost:8000/products/9
+GET http://localhost:8000/products/16
 
 ### update product
 PUT http://localhost:8000/products/9
 Content-Type: application/json
 
 {
-  "name": "Ciki chuba",
-  "category": "Makanan ringan",
-  "qty": 3,
-  "price" : 750
+  "name": "Teh Pucuk",
+  "category": "Minuman",
+  "qty": 4,
+  "price" : 1500
 }
 
 ### delete user
-DELETE http://localhost:8000/products/10
+DELETE http://localhost:8000/products/11
 
 ### soft delete user
-PUT http://localhost:8000/products/soft-delete/11
+PUT http://localhost:8000/products/soft-delete/12
